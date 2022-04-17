@@ -9,3 +9,6 @@ My first attempt at modding Europa Universalis IV. We are going to try to add T2
 1. MIT
 	1. Build Date: https://libraries.mit.edu/mithistory/mit-facts/
 	2.
+
+## Misc Resources
+1. Markdown Guide -- https://www.markdownguide.org/basic-syntax/
