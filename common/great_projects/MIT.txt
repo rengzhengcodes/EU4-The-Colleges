@@ -61,12 +61,19 @@ MIT = {
 
 	# Conditions to upgrade project
 	can_upgrade_trigger = {
-		<conditions>
+		has_building = manufactory
+		has_building = university
+
+		AND = {
+			adm_tech = 10
+			dip_tech = 10
+			mil_tech = 10
+			development = 20
+		}
 	}
 
 	# Conditions for if the project will be destroyed when conquered
 	keep_trigger = {
-		<conditions>
 	}
 
 	# Tiers
