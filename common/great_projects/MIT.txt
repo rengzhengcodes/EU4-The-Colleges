@@ -1,21 +1,21 @@
-<project> = {
+MIT = {
 	# Province the project starts in
 	start = <province id>
 
 	# Date built in real life (If you start the game at a date later than this, then the project will show up)
-	date = year.month.date
+	date = 1861.04.10
 
 	# How much it costs to build
 	build_cost = <ducats>
 
 	# If the project can be moved
-	can_be_moved = yes/no
+	can_be_moved = no
 
 	# Starting tier of the project
-	starting_tier = <tier>
+	starting_tier = 0
 
 	# Project type
-	type = canal/monument
+	type = monument
 
 	# Conditions to build the project
 	build_trigger = {
