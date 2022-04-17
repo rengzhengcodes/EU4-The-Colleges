@@ -4,3 +4,8 @@ My first attempt at modding Europa Universalis IV. We are going to try to add T2
 ## Resources
 1. Modding Monuments
 	1. https://eu4.paradoxwikis.com/Great_project_modding
+
+## University Specific Resources
+1. MIT
+	1. Build Date: https://libraries.mit.edu/mithistory/mit-facts/
+	2.
