@@ -5,3 +5,4 @@ tags = {
 	"Expansion"
 	"Gameplay"
 }
+version = "0.1"
