@@ -3,10 +3,12 @@ MIT = {
 	start = <province id>
 
 	# Date built in real life (If you start the game at a date later than this, then the project will show up)
+	# https://libraries.mit.edu/mithistory/mit-facts/
 	date = 1861.04.10
 
 	# How much it costs to build
-	build_cost = <ducats>
+	# Based on other universities and things in EU4.
+	build_cost = 5000
 
 	# If the project can be moved
 	can_be_moved = no
