@@ -21,24 +21,42 @@ MIT = {
 
 	# Conditions to build the project
 	build_trigger = {
-		<conditions>
+		OR = {
+			# MIT was formed to deal with growing industrialism in the United States
+			has_building = manufactory
+
+			# if you don't have a mnaufactory, you can still build this endgame if you have the enlightenment institution and the province has 100% enlightenment.
+			AND = {
+				has_institution = enlightenment
+				enlightenment = 100
+			}
+		}
 	}
 
 	# What happens when the project is built
 	on_built = {
-		<do stuff> # For example; add_prestige = 25
-		# For canal, do add_canal = <canal_name>
+		add_building = university
+		add_prestige = 10
 	}
 
 	# What happens when the project is destroyed
 	on_destroyed = {
-		<do stuff> # For example; add_prestige = -25
-		# For canal, do remove_canal = <canal_name>
+		remove_building = university
+		add_prestige = -50
 	}
 
 	# Conditions to use project
 	can_use_modifiers_trigger = {
-		<conditions>
+		# you gotta keep the industrial center + the university there
+		has_building = manufactory
+		has_building = university
+
+		# you also need a base amount of tech in order to reap the benefits
+		AND = {
+			adm_tech = 10
+			dip_tech = 10
+			mil_tech = 10
+		}
 	}
 
 	# Conditions to upgrade project
