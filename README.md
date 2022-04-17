@@ -4,7 +4,7 @@ My first attempt at modding Europa Universalis IV. We are going to try to add T2
 ## Resources
 1. Modding in general
 	1. Initializing the mod -- https://eu4.paradoxwikis.com/Mod_structure#.mod_file
-		1. Put the file in the relevant location
+		1. Put the folder in the relevant location
 			```
 			Windows: Documents\Paradox Interactive\Europa Universalis IV\mod
 			Linux: ~/.local/share/Paradox Interactive/Europa Universalis IV/mod
