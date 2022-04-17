@@ -11,8 +11,9 @@ My first attempt at modding Europa Universalis IV. We are going to try to add T2
 
 ## University Specific Resources
 1. MIT
-	1. Build Date: https://libraries.mit.edu/mithistory/mit-facts/
-	2.
+	1. Build Date -- 1861-04-10: https://libraries.mit.edu/mithistory/mit-facts/
+	2. Build Time -- 48 Months: https://libraries.mit.edu/mithistory/mit-facts/ | From the fact classes began 4 years after chartering.
+	3. 
 
 ## Misc Resources
 1. Markdown Guide -- https://www.markdownguide.org/basic-syntax/
