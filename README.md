@@ -25,6 +25,7 @@ My first attempt at modding Europa Universalis IV. We are going to try to add T2
 			}
 			```
 			- Note that '''picture.jpg''' should be located in the '''mod/folder_name''' directory.
+				- I HAVE NOT GOT THIS TO WORK YET
 		4. Create a '''descriptor.mod''' file in '''mod/folder_name''' with the same contents as the mod file created in step 2, minus the '''path=""'''.
 		5.
 2. Modding Monuments
