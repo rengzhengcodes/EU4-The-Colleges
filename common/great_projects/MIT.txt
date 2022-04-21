@@ -77,35 +77,39 @@ MIT = {
 	}
 
 	# Tiers
-	tier_<tier> = {
+	tier_1 = {
 		# Time it takes to upgrade the project
 		upgrade_time = {
-			months = <months>
+			months = 120
 		}
 
 		# Cost to upgrade the project
 		cost_to_upgrade = {
-			factor = <ducats>
+			factor = 2500
 		}
 
 		# What modifiers are given to the province the project is located in
 		province_modifiers = {
-			<modifiers>
+			local_build_cost = -0.2
 		}
 
 		# What modifiers are given to the area of the province the project is located in
 		area_modifier = {
-			<modifiers>
+			local_institution_spread = 0.25
 		}
 
 		# What modifiers are given to the nation that owns the monument
 		country_modifiers = {
-			<modifiers>
+			idea_cost = -0.05
 		}
 
 		# What happens when the upgrade is complete
 		on_upgraded = {
-			<do stuff> #For example; add_prestige = 25
+			add_prestige = 25
+			change_innovativeness = 5
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
 		}
 	}
 }
