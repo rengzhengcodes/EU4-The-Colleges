@@ -35,6 +35,7 @@ My first attempt at modding Europa Universalis IV. We are going to try to add T2
 1. MIT
 	1. Build Date -- 1861-04-10: https://libraries.mit.edu/mithistory/mit-facts/
 	2. Build Time -- 48 Months: https://libraries.mit.edu/mithistory/mit-facts/ | From the fact classes began 4 years after chartering.
+		1. Later changed to be brought into standard with other monuments.
 	3.
 
 ## Misc Resources
