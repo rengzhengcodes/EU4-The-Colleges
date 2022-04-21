@@ -143,4 +143,36 @@ MIT = {
 			add_mil_power = 50
 		}
 	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+
+		cost_to_upgrade = {
+			factor = 10000
+		}
+
+		province_modifiers = {
+			local_build_cost = -0.75
+		}
+
+		area_modifier = {
+			local_institution_spread = 1
+		}
+
+		country_modifiers = {
+			idea_cost = -0.2
+			advisor_cost = -0.1
+			global_trade_goods_size_modifier = 0.1
+		}
+
+		on_upgraded = {
+			add_prestige = 50
+			change_innovativeness = 10
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+		}
+	}
 }
