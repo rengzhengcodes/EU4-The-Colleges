@@ -1,6 +1,6 @@
 MIT = {
 	# Province the project starts in
-	start = <province id>
+	start = 968
 
 	# Date built in real life (If you start the game at a date later than this, then the project will show up)
 	# https://libraries.mit.edu/mithistory/mit-facts/
