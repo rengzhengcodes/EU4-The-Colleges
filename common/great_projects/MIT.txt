@@ -90,7 +90,7 @@ MIT = {
 
 		# What modifiers are given to the province the project is located in
 		province_modifiers = {
-			local_build_cost = -0.2
+			local_build_cost = -0.25
 		}
 
 		# What modifiers are given to the area of the province the project is located in
@@ -104,6 +104,37 @@ MIT = {
 		}
 
 		# What happens when the upgrade is complete
+		on_upgraded = {
+			add_prestige = 25
+			change_innovativeness = 5
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		province_modifiers = {
+			local_build_cost = -0.5
+		}
+
+		area_modifiers = {
+			local_institution_spread = 0.5
+		}
+
+		country_modifiers = {
+			idea_cost = -0.1
+			advisor_cost = -0.05
+		}
+
 		on_upgraded = {
 			add_prestige = 25
 			change_innovativeness = 5
